@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  .dropbtn {
+  /* background-color: #fcd6d6; */
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+body{
+    padding:15px;
+}
+
+button{
+            text-align: center;
+            background-color: rgb(247, 255, 255);
+            font-size: medium;
+            color: rgb(216, 27, 21);
+            padding-inline:20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+.Proficiency{
+  font-size:8px;
+  font-style:italic;
+  padding: 0px;
+}
+
+</style>
+<body>
+    <label for="">Enter Name </label><br><input type="text"style= "border:1px solid black;padding:5px;"><br><br>
+    <label for="">Gender</label><br>
+    <div class="dropdown">
+        <input class="dropbtn" type="text">
+        <div class="dropdown-content">
+            <li>Male</li>
+            <li>Female</li>
+        </div>
+    </div><br><br>
+    <label for="">Enter College name</label><br>
+        <div class="dropdown">
+            <input class="dropbtn" type="text">
+            <div class="dropdown-content">
+                <li>RYMEC,Ballari</li>
+                <li>BIT,Bangalore</li>
+                <li>BITM,Ballari</li>
+                <li>Reva University,Bangalore</li>
+                <li>JSS,Dharwad</li>
+            </div>
+        </div><br><br>
+    
+    <div>
+        <label for="">Enter University Number</label><br>
+        <input type="text" style= "border:1px solid black;padding:5px;"><br><br>
+        <label for="">Enter aggregate percentage</label><br>
+        <input type="text" style= "border:1px solid black;padding:5px;"><br><br>
+        <p>Languages known</p>
+        <form>
+          <div class="Lang">
+              <input type="checkbox" id="C" name="languages known" value="C">
+              <label for="">C</label>
+              <p style="font-size: 11px;padding: 0px;">Language Proficiency</p>
+              <div class="Proficiency">
+                <input type="radio" id="high" name="language prof" value="high">
+                <label for="">High</label>
+                <input type="radio" id="medium" name="language prof" value="medium">
+                <label for="">Medium</label>
+                <input type="radio" id="low" name="language prof" value="low">
+                <label for="">Low</label><br><br>
+              </div><br>
+          </div>
+          <div class="Lang">
+            <input type="checkbox" id="C++" name="languages known" value="C++">
+            <label for="">C++</label>
+            <p style="font-size: 11px;">Language Proficiency</p>
+            <div class="Proficiency">
+              <input type="radio" id="high" name="language prof" value="high">
+              <label for="">High</label>
+              <input type="radio" id="medium" name="language prof" value="medium">
+              <label for="">Medium</label>
+              <input type="radio" id="low" name="language prof" value="low">
+              <label for="">Low</label><br><br>
+            </div><br>
+          </div>
+
+        <div class="Lang">
+          <input type="checkbox" id="Java" name="languages known" value="Java">
+          <label for="">Java</label>
+          <p style="font-size: 11px;">Language Proficiency</p>
+          <div class="Proficiency">
+            <input type="radio" id="high" name="language prof" value="high">
+            <label for="">High</label>
+            <input type="radio" id="medium" name="language prof" value="medium">
+            <label for="">Medium</label>
+            <input type="radio" id="low" name="language prof" value="low">
+            <label for="">Low</label><br><br>
+          </div><br>
+        </div>
+        <div class="Lang">
+          <input type="checkbox" id="Python" name="languages known" value="Python">
+          <label for="">Python  </label>
+          <p style="font-size:11px ;">Language Proficiency</p>
+          <div>
+            <input type="radio" id="high" name="language prof" value="high">
+            <label for="">High</label>
+            <input type="radio" id="medium" name="language prof" value="medium">
+            <label for="">Medium</label>
+            <input type="radio" id="low" name="language prof" value="low">
+            <label for="">Low</label><br><br>
+          </div><br>
+        </div>   
+
+          
+        </form>
+        <Button type="submit">Submit</Button>
+
+        
+    </div><br>
+</body>
+</html>

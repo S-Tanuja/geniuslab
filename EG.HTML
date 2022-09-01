@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  /* background-color: #fcd6d6; */
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+</style>
+</head>
+<body>
+
+<label for="">Enter name</label>
+<!-- <p>Move the mouse over the button to open the dropdown menu.</p> -->
+<br>
+<input type="text">
+<br>
+<label for="">Enter College name</label><br>
+<div class="dropdown">
+    <input class="dropbtn" type="text">
+    <div class="dropdown-content">
+        <li>REVA,Bangalore</li>
+        <li>RYMEC,Ballari</li>
+        <li>BIT,Bangalore</li>
+        <li>JSS,Dharwad</li>
+    </div>
+
+</div>
+
+    </div>
+  </div>
+  <br>
+  <label for="">Enter University</label><br>
+  <div class="dropdown">
+    <input class="dropbtn" type="text">
+    <div class="dropdown-content">
+    <a href="#">REVA COLLEGE</a>
+    <a href="#">RYMEC</a>
+    <a href="#">Link 3</a>
+    </div>
+  </div>
+  <br>
+  <label for="">Enter aggregate percentage</label><br>
+
+  <div class="dropdown">
+    <input class="dropbtn" type="text">
+    <div class="dropdown-content">
+    <a href="#">REVA COLLEGE</a>
+    <a href="#">RYMEC</a>
+    <a href="#">Link 3</a>
+    </div>
+  </div>
+
+<!-- <p><strong>Note:</strong> We use href="#" for test links. In a real web site this would be URLs.</p> -->
+<!-- <input type="text"> -->
+</body>
+</html>
+
+

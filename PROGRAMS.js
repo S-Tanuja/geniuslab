@@ -1,81 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 
-<body>
-    <script>
+        //Coalescing operator
+
         // let user;
         // alert(user??"Anonymous"); 
 
-        // let user = {     
-        //     name: "John",  
-        //     age: 30        
-        // };
-        // alert( user.name ); 
-        // alert( user.age ); 
-
-        // user.age=45;
-        // delete user.name;
-        // user.dob=1/10/79;
-
-
-        // let num=prompt("enter a number");
-        // let res=(num)=>{
-        // let count=0;
-        // for(let i=1;i<=num;i++)
-        // {
-        //    if(num%i==0)
-        //     count++;
-        // }
-        // if(count==2)
-        //     alert(" prime number");
-        // else
-        //     alert("not prime number");
-        //}   
-        //res(num);
-
-        // let calculator = {
-        //        sum(){
-        //         return this.a+this.b;
-        //        },
-        //         mul(){
-        //             return this.a*this.b;
-        //         },
-        //         read(){
-        //             this.a=+prompt("Enter a value");
-        //             this.b=+prompt("enter another value");
-        //         }
-
-
-        // };
-
-        // calculator.read();
-        // alert( calculator.sum() );
-        // alert( calculator.mul() );
-
-        // let ladder = {
-        //     step:0,
-        //     up(){
-        //         this.step++;
-        //         return this;
-        //     },
-        //     down(){
-        //         this.step--;
-        //         return this;
-        //     },
-        //     showStep(){
-        //         alert(this.step);
-        //         return this;
-        //     }
-        // }
-        // ladder.up().up().down()
-
+      
 
         //generating a random number
 
@@ -126,29 +56,29 @@
         // else
         //     alert("FALSE");
 
-       // TO CHECK IF THE GIVEN NUMBERS HAVE SAME FIRST DIGIT
+    //    TO CHECK IF THE GIVEN NUMBERS HAVE SAME FIRST DIGIT
 
-        // let num1 = +prompt("enter num1");
-        // let num2 = +prompt("enter num2");
-        // let count1=0;let count2=0,fd1,fd2;
-        // dnum1=num1;
-        // dnum2=num2;
+    //     let num1 = +prompt("enter num1");
+    //     let num2 = +prompt("enter num2");
+    //     let count1=0;let count2=0,fd1,fd2;
+    //     dnum1=num1;
+    //     dnum2=num2;
 
-        // while(!(count1==num1.toString().length && count2==num2.toString().length))
-        // {
-        //     fd1=dnum1%10;
-        //     dnum1=parseInt(dnum1/10);
-        //     count1++;
-        //     fd2=dnum2%10;
-        //     dnum2=parseInt(dnum2/10);
-        //     count2++;
-        // }
-        // if(fd1==fd2)
-        //     alert("true");
-        // else
-        //     alert("false");
+    //     while(!(count1==num1.toString().length && count2==num2.toString().length))
+    //     {
+    //         fd1=dnum1%10;
+    //         dnum1=parseInt(dnum1/10);
+    //         count1++;
+    //         fd2=dnum2%10;
+    //         dnum2=parseInt(dnum2/10);
+    //         count2++;
+    //     }
+    //     if(fd1==fd2)
+    //         alert("true");
+    //     else
+    //         alert("false");
 
-        //Armstrong number
+        //Armstrong number without using exponential
 
 
         // let prod=(rem)=>{
@@ -175,7 +105,9 @@
         //     alert("mot a armstrong number");
 
 
+        // ARMSTRONG NUMBER USING EXPONENTIAL
 
+        
         //  const num = +prompt("enter a number");
         // let temp = num;
         // let sum = 0;
@@ -208,8 +140,4 @@
 
 
 
-    </script>
-</body>
-
-</html>
-
+    
